@@ -4,8 +4,16 @@
 > Translate plain English questions into MongoDB, Neo4j, Redis, HBase, and RDF queries using LLMs and the Model Context Protocol (MCP)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status: Production Ready](https://img.shields.io/badge/status-production%20ready-brightgreen.svg)]()
+![Anthropic](https://img.shields.io/badge/LLM-Anthropic-191919?logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-supported-6E40C9)
+[![MongoDB](https://img.shields.io/badge/database-MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Neo4j](https://img.shields.io/badge/graph-Neo4j-018BFF?logo=neo4j&logoColor=white)](https://neo4j.com/)
+[![Redis](https://img.shields.io/badge/cache-Redis-DC382D?logo=redis&logoColor=white)](https://redis.io/)
+[![Apache HBase](https://img.shields.io/badge/bigdata-HBase-000000?logo=apache&logoColor=white)](https://hbase.apache.org/)
+[![GraphQL](https://img.shields.io/badge/API-GraphQL-E10098?logo=graphql&logoColor=white)](https://graphql.org/)
+
+
 
 ---
 
@@ -80,7 +88,7 @@ Support for 5 NoSQL database types:
 - **Query history** - Track and reuse previous queries
 - **Interactive components** - Dropdowns, sliders, charts
 
-### 🏗️ MCP Architecture
+### 🏗️ MCP itecture
 - **Modular design** - Each database has its own MCP server
 - **Direct tools mode** - Fast execution by bypassing MCP protocol overhead
 - **Extensible** - Easy to add new databases
@@ -118,9 +126,8 @@ streamlit run frontend/app.py
   <img src="./nosql-llm.gif" alt="Project Architecture">
 
   
-<\p>
 
-```
+
 
 ### Key Components
 
